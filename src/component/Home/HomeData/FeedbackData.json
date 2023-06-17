@@ -1,0 +1,20 @@
+[
+    {
+        "clientName":"Nash Patrik",
+        "profession":"CEOL, Manpol",
+        "img":"customer-1.png",
+        "feedback":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore."
+    },
+    {
+        "clientName":"Marriam Barrun",
+        "profession":"CEO, Manpol",
+        "img":"customer-2.png",
+        "feedback":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore."
+    },
+    {
+        "clientName":"Bria Malone",
+        "profession":"CEO, Manpol",
+        "img":"customer-3.png",
+        "feedback":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore."
+    }
+]
