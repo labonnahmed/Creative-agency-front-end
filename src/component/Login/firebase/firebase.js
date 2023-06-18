@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBsHN6w0UtT1L8a-T6hWjhc9BkRdQH0WJc",
-  authDomain: "creative-agency-own.firebaseapp.com",
-  projectId: "creative-agency-own",
-  storageBucket: "creative-agency-own.appspot.com",
-  messagingSenderId: "895507446872",
-  appId: "1:895507446872:web:c971e86953bb5baf841e2d"
+  apiKey: "AIzaSyBNZD5KC9GMD_WlFelm7AsPoqyF-uU2fdU",
+  authDomain: "creative-agency-work.firebaseapp.com",
+  projectId: "creative-agency-work",
+  storageBucket: "creative-agency-work.appspot.com",
+  messagingSenderId: "1090055328172",
+  appId: "1:1090055328172:web:b185b829c24ddde1772a09"
 };
 
 // Initialize Firebase

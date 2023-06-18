@@ -6,7 +6,7 @@ const Feedback = () => {
     const [feedbacks, setFeedbacks] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8000/clientsFeedback')
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/clientsFeedback')
             .then(res => res.json())
             .then(data => setFeedbacks(data.slice(0,3)))
 

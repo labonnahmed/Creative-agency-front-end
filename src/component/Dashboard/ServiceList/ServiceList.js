@@ -9,7 +9,7 @@ const ServiceList = () => {
     const email = authUser.email;
 
     useEffect(() => {
-        fetch('http://localhost:8000/adminAccess', {
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/adminAccess', {
             method: 'POST',
             body: JSON.stringify({ email }),
             headers: {
@@ -23,7 +23,7 @@ const ServiceList = () => {
     }, [])
 
     useEffect(() => {
-        fetch('http://localhost:8000/serviceList')
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/serviceList')
             .then(res => res.json())
             .then(data => {
                 setServicesList(data)

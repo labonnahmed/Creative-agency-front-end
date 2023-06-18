@@ -14,7 +14,7 @@ const Footer = () => {
             massage: e.target[2].value
         }
 
-        fetch('http://localhost:8000/contact', {
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/contact', {
             method: 'POST',
             body: JSON.stringify(contactInfo),
             headers: {

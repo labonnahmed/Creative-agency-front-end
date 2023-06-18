@@ -19,7 +19,7 @@ const MakeService = () => {
         formData.append('description', e.target[2].value)
 
 
-        fetch('http://localhost:8000/createService', {
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/createService', {
             method: 'POST',
             body: formData
         })

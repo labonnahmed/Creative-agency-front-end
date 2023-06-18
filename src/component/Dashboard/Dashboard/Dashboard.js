@@ -10,7 +10,7 @@ const Dashboard = () => {
     const email = authUser.email
 
     useEffect(() => {
-        fetch('http://localhost:8000/adminAccess', {
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/adminAccess', {
             method: 'POST',
             body: JSON.stringify({ email }),
             headers: {

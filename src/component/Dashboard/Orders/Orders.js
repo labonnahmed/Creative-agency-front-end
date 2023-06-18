@@ -8,7 +8,7 @@ const Orders = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:8000/orderCategories?email=' + email, {
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/orderCategories?email=' + email, {
             method: 'GET',
             headers: {
                 'Content-type': 'application/json; charset=UTF-8',

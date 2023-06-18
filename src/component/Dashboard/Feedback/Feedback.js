@@ -11,7 +11,7 @@ const Feedback = () => {
             feedback: e.target[2].value
         }
 
-        fetch('http://localhost:8000/feedback', {
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/feedback', {
             method: 'POST',
             body: JSON.stringify(feedback),
             headers: {

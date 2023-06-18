@@ -8,7 +8,7 @@ const MakeAdmin = () => {
 
         e.preventDefault();
 
-        fetch('http://localhost:8000/createAdmin', {
+        fetch('https://creative-agency-backend-c6v0vvu1w-labonnahmed.vercel.app/createAdmin', {
             method: 'POST',
             body: JSON.stringify(orderInfo),
             headers: {
